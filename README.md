@@ -128,4 +128,51 @@ Charging Duration was the most influential feature, contributing approximately 7
 
 ## 🔍 Residual Analysis
 
-Residual a
+Residual analysis was performed by comparing actual demand with predicted demand.
+
+The mean residual was close to zero, indicating very little overall prediction bias. However, prediction errors increased for some high-demand sessions, showing that the model had more difficulty predicting extreme demand values.
+
+## 💡 Key Insights
+
+1. Charging duration is the strongest predictor of charging demand.
+2. Higher-duration charging sessions generally correspond to higher demand.
+3. Charger type has a noticeable influence on demand.
+4. Charging demand varies throughout the day.
+5. High-demand sessions are more difficult for the model to predict accurately.
+6. Charger company has relatively low predictive importance compared with duration and charger type.
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+- GitHub
+
+## 📁 Project Files
+
+- EV_Charging_Analysis.ipynb – Complete analysis and machine learning workflow.
+- ChargingRecords.csv – Original dataset.
+- Cleaned_ChargingRecords.csv – Cleaned dataset.
+- RandomForest_Predictions.csv – Model prediction results.
+
+## 🚀 Future Scope
+
+The project can be extended by:
+
+- Testing additional machine learning algorithms.
+- Performing hyperparameter tuning.
+- Adding more time-based and location-based features.
+- Developing an interactive EV charging demand dashboard.
+- Using advanced forecasting techniques for future demand prediction.
+- Deploying the trained model as a web application or API.
+
+## 👩‍💻 Internship Project
+
+*Internship Organization:* YuvaIntern  
+*University:* Uttarakhand Technical University  
+*Project:* EV Charging Demand Analysis and Prediction  
+*Domain:* Data Science and Machine Learning
