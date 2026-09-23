@@ -67,6 +67,22 @@ Several visualizations were created to understand the dataset, including:
 - Demand boxplot
 - Duration boxplot
 - Correlation heatmap
+- 📊 Visualizations
+
+The project includes the following visualizations to analyze EV charging demand and understand important patterns in the dataset:
+
+1. Demand Distribution – Shows the distribution and spread of EV charging demand values.
+2. EV Charging Demand Boxplot – Identifies the central distribution and potential high-demand outliers.
+3. Average EV Charging Demand by Hour – Shows how charging demand changes across different hours of the day.
+4. Average EV Charging Demand by Day of Week – Compares average charging demand across different days.
+5. Average EV Charging Demand by Month – Shows monthly variation in charging demand.
+6. Average EV Charging Demand by Location – Compares demand across different charging locations.
+7. Average EV Charging Demand by Charger Type and Company – Compares demand based on charger type and charger company.
+8. Charging Duration vs EV Charging Demand – Shows the relationship between charging duration and demand.
+9. Correlation Heatmap – Displays relationships among numerical variables and helps identify important correlations.
+10. Random Forest Feature Importance – Shows the relative contribution of input features to the demand prediction model.
+
+
 
 ### Key EDA Findings
 
